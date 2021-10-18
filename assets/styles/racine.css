@@ -12,6 +12,9 @@ h1,h2{
 h3,p{
     color: darkblue;
 }
+
+
+
 /*Section Hero*/
 .hero{
     height: 100vh;
@@ -22,15 +25,22 @@ h3,p{
     background-size: cover;
 }
 
+
+
+/*section à propos*/
 .a_propos{
     margin: 20px;
 }
 
+
+
+/*section services*/
 .services{
     background-color: #a9acda;
     padding-top: 50px;
 }
 
+/*footer*/
 footer{
     height: 50px;
     background:darkblue;

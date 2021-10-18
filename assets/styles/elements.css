@@ -1,5 +1,4 @@
 /*Logo*/
-
 #mon_logo{
     margin: 0;
     height: 40px;
@@ -9,6 +8,7 @@
     font-family: 'Frijole', cursive;
     color: #ffffff;
 }
+
 
 /*Menu*/
 ul {
@@ -63,6 +63,7 @@ h2{
     margin-top: 50px;
 }
 
+
 /*boutons*/
 .bouton{
     margin: 0;
@@ -96,6 +97,8 @@ h2{
 .paragraphe_section_a_propos{
     margin-bottom: 40px;
 }
+
+
 /*footer*/
 .droits{
     color: white;
