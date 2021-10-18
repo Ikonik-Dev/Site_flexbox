@@ -1,0 +1,102 @@
+/*Logo*/
+
+#mon_logo{
+    margin: 0;
+    height: 40px;
+}
+
+#logo{
+    font-family: 'Frijole', cursive;
+    color: #ffffff;
+}
+
+/*Menu*/
+ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style-type: none;
+    margin: 15px 20px ;
+    padding: 0;
+}
+li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+a:hover{
+    color: crimson;
+}
+
+
+/*Titres*/
+h1{
+    font-size: 100px;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+h2{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+.titre_section_2{
+    color: darkblue;
+    text-align: center;
+    margin-top: 100px;
+}
+.titre_section_3{
+    color: darkblue;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.titre_section_4{
+    color: darkblue;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*boutons*/
+.bouton{
+    margin: 0;
+    background-color:crimson;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.bouton:hover {
+	background-color:rgb(173, 0, 35);
+}
+
+/*elements section a propos*/
+.image_propos{
+    top: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.titre_section_a_propos{
+    margin-bottom: 40px;
+    color: darkblue;
+}
+
+.paragraphe_section_a_propos{
+    margin-bottom: 40px;
+}
+/*footer*/
+.droits{
+    color: white;
+}

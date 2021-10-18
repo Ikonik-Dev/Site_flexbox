@@ -1,0 +1,112 @@
+/*BARRE NAV*/
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "logo_text container_menu_principal";
+    height: 50px;
+}
+
+.logo_text { 
+    display: flex;
+    grid-area: logo_text; 
+}
+
+.container_menu_principal { 
+    grid-area: container_menu_principal; 
+}
+
+/*ECRAN TITRE*/
+.titre_hero {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    flex-wrap: wrap; 
+    align-content: center;
+    margin-top: 100px;
+    height: 70%;
+    gap: 5px;
+}
+
+/*A PROPOS*/
+.unPaddingScrollantRecalcitrant{
+    width:100%;
+}
+
+.container_a_propos {
+    display: flex;
+    margin: auto;
+    justify-content: center; 
+    align-items: stretch; 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+    align-content: stretch;
+    width: 80%;
+    height: 100%;
+    gap: 60px;
+    padding: 50px;
+}
+
+.mon_image_entreprise { 
+    flex-grow:1;
+    align-self:auto;
+}
+
+.text_propos { 
+    flex-grow:2;
+}
+
+/*SERVICES*/
+
+.container_services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 40vh;
+    overflow: auto;
+    flex-direction: row;
+    text-align: center;
+}
+
+.container_services div {
+    width: 250px;
+    height: 100px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.container_services div i{
+    color: crimson;
+}
+
+
+.container_contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 40vh;
+    overflow: auto;
+    flex-direction: row;
+    text-align: center;
+}
+
+.container_contact div {
+    width: 250px;
+    height: 100px;
+    margin: 5px;
+    color: rgb(66, 98, 167);
+}
+
+.container_contact div i{
+    color: crimson;
+}

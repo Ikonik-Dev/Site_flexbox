@@ -1,0 +1,42 @@
+/*Body réinitialisé*/
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2{
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+h3,p{
+    color: darkblue;
+}
+/*Section Hero*/
+.hero{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/assets/img/banniere-accueil.jpg);
+    background-color: #9598c0;
+    background-blend-mode:color-burn;
+    background-size: cover;
+}
+
+.a_propos{
+    margin: 20px;
+}
+
+.services{
+    background-color: #a9acda;
+    padding-top: 50px;
+}
+
+footer{
+    height: 50px;
+    background:darkblue;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
