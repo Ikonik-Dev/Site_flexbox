@@ -53,6 +53,16 @@
     gap: 60px;
     padding: 50px;
 }
+/*Rajoute cette media pour les small devices*/
+@media (max-width:800px){
+    .container_a_propos {
+        flex-wrap:wrap;
+        text-align:center
+    }
+    .titre_section_a_propos {
+        margin-top: 0;
+    }
+}
 
 .mon_image_entreprise { 
     flex-grow:1;
@@ -67,20 +77,21 @@
 
 .container_services {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* 👍 */
     justify-content: center;
     align-items: center;
     align-content: center;
     width: 100%;
-    height: 40vh;
-    overflow: auto;
-    flex-direction: row;
+    height: 60vh;
+    /* overflow: auto;  inutile */
+    /* flex-direction: row; inutile de le préciser, c'est la valeur par défaut */
     text-align: center;
 }
 
 .container_services div {
-    width: 250px;
-    height: 100px;
+    /* width: 250px;   je privilégie dans ton cas : max-width:400px */
+    max-width: 400px;
+    /* height: 100px;  si tu précises le height, ça gâchera ta mise en page en mobile */
     margin: 5px;
     color: rgb(255, 255, 255);
 }
@@ -99,8 +110,8 @@
     align-content: center;
     width: 100%;
     height: 40vh;
-    overflow: auto;
-    flex-direction: row;
+    /* overflow: auto; */
+    /* flex-direction: row; nutile de le préciser, c'est la valeur par défaut */
     text-align: center;
 }
 

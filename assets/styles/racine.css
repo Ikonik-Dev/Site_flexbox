@@ -1,3 +1,7 @@
+html  {
+    scroll-behavior: smooth; /* ajouterr cette propriété rend le scroll plus doux lorsque tu cliques sur un des éléments du menu*/
+}
+
 /*Body réinitialisé*/
 body{
     padding: 0;
@@ -33,7 +37,6 @@ h3,p{
 }
 
 
-
 /*section services*/
 .services{
     background-color: #a9acda;
@@ -42,11 +45,27 @@ h3,p{
 
 /*footer*/
 footer{
-    height: 50px;
+    /* height: 50px; tu peux aussi ajouter padding-top et padding-bottom pour obtenir la height souhaité, en plus ça centrera le texte verticalment */
     background:darkblue;
     color: white;
     text-align: center;
-    padding-top: 5px;
+    padding: 20px;
 }
 
+/* Stéphane! joli travail!!
+Voici quelques propositions d'amélioration:
+section Accueil :
+- Gérer le responsive du menu
+- Utilisation de la fonction clamp pour rendre h1 plus responsive
+- Gérer les padding et les tailles des icônes dans la section services
+- répartir le css dans des feuilles de style séparées est une bonne pratique. Que penses-tu de répartir en fonction des sections ou des pages pour trouver plus facilement le code qui y est associé? accueil.css, a-propos.css ...
+
+Bravo, beaucoup d'acquis, et c'est grâce à tes efforts!
+tu as bien réussi le zoning et l'intégration.
+Un peu d'amélioration au niveau du responsive fera de toi UN BOSS : )
+
+Je te ferai un retour sur le premier projet dès que je peux,
+Have fun!
+To be continued ; ) 
+*/
 

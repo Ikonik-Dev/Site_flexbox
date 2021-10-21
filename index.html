@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!-- in english ?-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta description manquante : ) -->
     <!--Fonts-->
+
+    <!-- choisis en même temps les font souhaitées pour obtenir un seul code les regroupant toutes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&display=swap" rel="stylesheet">
@@ -21,7 +24,7 @@
     <title>ExoSite</title>
 </head>
 <body>
-    <header class="hero">
+    <header class="hero"> <!-- hero! on reconnait les connaisseurs : ) -->
         <div class="container">
             <div class="logo_text">
                 <img id="mon_logo" src="assets\img\logo.png" alt="image logo">
@@ -29,20 +32,22 @@
             </div>
             <div class="container_menu_principal">
                 <ul>
-                    <li><a href="acceuil">Acceuil</a></li>
-                    <li><a href="propos">A propos</a></li>
-                    <li><a href="contact">Contact</a></li>
-                    <li><a href="services">Services</a></li>
+                    <!-- Attention tes liens ne sont pas fonctionnels, 
+                        J'ai rajouté un # et créer les id -->
+                    <li><a href="#">Acceuil</a></li> <!-- accueil ==> u en premier, memo : U à la Une -->
+                    <li><a href="#apropos">A propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
         <div class="titre_hero">
-            <h1>Développement Web</h1>
+            <h1>Développement Web</h1> <!-- pertinent le choix de h1-->
             <h2>front end & backend</h2>
             <button class="bouton">contact</button>
         </div>
     </header>
-    <section class="propos">
+    <section class="propos" id="apropos">
         <div class="a_propos">
             <h2 class="titre_section_2">A PROPOS</h2>
         </div>
@@ -59,7 +64,7 @@
             </div>
         </div>
     </section>
-    <section class="services">
+    <section class="services" id="services">
         <div class="service">
             <h2 class="titre_section_3">SERVICES</h2>
         </div>
@@ -79,9 +84,9 @@
                 <h3>Web Design</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quidem repellendus, perferendis?</p>
         </div>
-    </div>
+    </div> <!-- Attention à l'indentation -->
     </section>
-    <section class="contacts">
+    <section class="contacts" id="contact">
         <div class="contact">
             <h2 class="titre_section_4">CONTACT</h2>
         </div>
